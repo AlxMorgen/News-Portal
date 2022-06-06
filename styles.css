@@ -12,6 +12,10 @@ h2 {
     border-bottom: 1px solid #e5e2e2;
 }
 
+select {
+    outline: none;
+}
+
 div {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -87,6 +91,7 @@ div {
     bottom: 33px;
     right: 21px;
     height: 20px;
+    cursor: pointer;
 }
 
 .search input {
@@ -122,6 +127,8 @@ select {
     padding: 0 17px;
     border-right: 1px solid #c5c5c8;
     transform: skewX(-22deg);
+    text-decoration: none;
+        color: black;
 }
 
 .nav-item:first-child {
@@ -400,7 +407,7 @@ float: left;
     margin-right: 9px;
  }
 
- .social img:last-child {
+ .last-link {
      margin-right: 0;
  }
 
